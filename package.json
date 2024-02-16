@@ -16,8 +16,8 @@
     "start": "react-scripts start",
     "build": "react-scripts build",
     "test": "react-scripts test",
-    "deploy": "gh-pages -d dist",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "deploy": "vite build && gh-pages -d dist"
   },
   "eslintConfig": {
     "extends": [
