@@ -12,9 +12,9 @@
     "web-vitals": "^2.1.4"
   },
   "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "react-scripts start",
-    "build": "react-scripts build && gh-pages -d build",
-    "test": "react-scripts test",
+    "build": "react-scripts build",
     "deploy": "gh-pages -d build",
     "eject": "react-scripts eject"
   },
@@ -41,11 +41,15 @@
   "author": "",
   "license": "ISC",
   "description": "",
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/TzuruC/react-gif-search.git"
-  },
   "devDependencies": {
     "gh-pages": "^6.1.1"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/TzuruC/react-gif-search.git"
+  },
+  "bugs": {
+    "url": "https://github.com/TzuruC/react-gif-search/issues"
+  },
+  "homepage": "https://github.com/TzuruC/react-gif-search#readme"
 }
